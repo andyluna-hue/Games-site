@@ -1,0 +1,210 @@
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;          
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    background: url(../images/header__img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 946px;
+}
+
+nav{
+    padding-top: 56px;
+}
+
+.header-nav{
+    background: #ffffff !important;
+    height: 162px;
+}
+
+.header-logo__img{
+    padding: 35px 69px 31px 39px;
+    border: 1px solid #f6f6f6;
+}
+
+.header-LogoRegistration{
+    display: flex;
+}
+
+.header-registration__email{
+    font-family: 'Arial';
+    font-size: 15px;
+    color:#2e343b;
+    margin-left: 12px;
+    margin-right: 22px;
+}
+
+.header-registration__email:hover{
+    font-family: 'Arial';
+    font-size: 15px;
+    color:#2e343b;
+}
+
+.fa-envelope-o{
+    color: #dedede;
+    border: 2px solid #dedede;
+    border-radius: 50%;
+    padding: 12px 12px;
+}
+
+.header-logo__country{
+    font-family: 'Arial';
+    font-size: 15px;
+    color:#2e343b;
+}
+
+.header-logo__country:hover{
+    font-family: 'Arial';
+    font-size: 15px;
+    color:#2e343b;
+}
+
+.header-registration{
+    padding: 29px 119px 24px 24px;
+    border: 1px solid #f6f6f6;
+}
+
+.fa-caret-down{
+    color: #545454;
+    margin-left: 14px;
+}
+
+.fa-caret-down:hover{
+    color: #545454;
+}
+
+.header-logo__flag{
+    padding: 13px 10px;
+    color: #dedede;
+    border: 2px solid #dedede;
+    margin-right: 17px;
+}
+
+.header-nav_menu__ul{
+    display: flex;
+    justify-content: space-between;
+    width: 941px;
+    padding-top: 18px;
+}
+
+.header-nav_menu__li{
+    font-weight: 500;
+    font-family: 'arial';
+    font-size: 15px;
+    color: #2e343b;
+}
+
+.header-nav_menu__li:hover{
+    color: #2e343b;
+}
+
+
+.fa-facebook{
+    color: #fff !important;
+    background: #407a86;
+    padding: 9px 11px 5px 10px;
+    border-radius: 50%;
+    margin-left: 51px;
+}
+
+.fa-twitter{
+    color: #fff !important;
+    background: #41b7cc;
+    padding: 9px 7px 5px 8px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.fa-youtube-play{
+    color: #fff !important;
+    background: #eb5635;
+    padding: 8px 7px 6px 7px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.info-title{
+    font-family: 'Baloo Tammudu 2';
+    font-weight: 100;
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 169px;
+}
+
+.red-line{
+    height: 4px;
+    width: 186px;
+    background-color: #eb5635;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+.header-title{
+    font-weight: bold;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 42px;
+    color: #fff;
+    width: 567px;
+}
+
+.header-subtitle{
+    font-weight: thin;
+    font-family: 'Baloo Tammudu 2';
+    font-size: 18px;
+    color: #fff;
+    width: 542px;
+    margin-top: 29px;
+}
+
+.header-info__appstore{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 36px 7px 33px;
+    background: #eb5635;
+    border-radius: 30px;
+    color: #fff;
+    font-family: 'Baloo Tammudu 2'; 
+}
+
+.header-info__appstore:hover{
+    color: #eb5635;
+    background: #fff;
+}
+
+.header-info__googlestore{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 36px 5px 33px;
+    background: #fff;
+    border-radius: 30px;
+    color: #2e343b;
+    font-family: 'Baloo Tammudu 2'; 
+    margin-left: 10px;
+}
+
+.header-info__googlestore:hover{
+    color: #fff;
+    background: #2e343b;
+}
+
+.header-info_stores{
+    margin-top: 19px    ;
+    display: inline-block;
+}
